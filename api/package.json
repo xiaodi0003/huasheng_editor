@@ -1,0 +1,15 @@
+{
+  "name": "huasheng-editor-api",
+  "version": "1.0.0",
+  "description": "公众号 Markdown 转换 API - 将 Markdown 转换为带内联样式的公众号格式 HTML",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "highlight.js": "^11.9.0",
+    "jsdom": "^24.0.0",
+    "markdown-it": "^14.0.0"
+  }
+}
