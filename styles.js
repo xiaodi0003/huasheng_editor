@@ -119,20 +119,20 @@ const STYLES = {
   'wechat-tech': {
     name: '技术风格',
     styles: {
-      container: 'max-width: 740px; margin: 0 auto; padding: 10px 20px 20px 20px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 16px; line-height: 1.75 !important; color: #2c3e50 !important; background-color: #fff !important; word-wrap: break-word;',
+      container: 'max-width: 740px; margin: 0 auto; padding: 10px 20px 20px 20px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 14px; line-height: 1.2 !important; color: #2c3e50 !important; background-color: #fff !important; word-wrap: break-word;',
       h1: 'font-size: 26px; font-weight: 700; color: #1a1a1a !important; line-height: 1.3 !important; margin: 36px 0 18px; padding: 0 0 12px; border-bottom: 3px solid #0066cc;',
       h2: 'font-size: 22px; font-weight: 700; color: #1a1a1a !important; line-height: 1.3 !important; margin: 32px 0 16px; padding-left: 16px; padding-top: 4px; padding-bottom: 4px; border-left: 5px solid #00a67d; background: linear-gradient(to right, #f0f9ff 0%, transparent 100%);',
       h3: 'font-size: 20px; font-weight: 600; color: #2c3e50 !important; line-height: 1.4 !important; margin: 28px 0 14px; padding-left: 12px; border-left: 3px solid #ff9800;',
       h4: 'font-size: 18px; font-weight: 600; color: #34495e !important; line-height: 1.4 !important; margin: 24px 0 12px;',
       h5: 'font-size: 17px; font-weight: 600; color: #34495e !important; line-height: 1.4 !important; margin: 20px 0 10px;',
       h6: 'font-size: 16px; font-weight: 600; color: #34495e !important; line-height: 1.4 !important; margin: 18px 0 9px;',
-      p: 'margin: 18px 0 !important; line-height: 1.8 !important; color: #3a3a3a !important;',
+      p: 'margin: 18px 0 !important; font-size: 14px !important; line-height: 1.2 !important; color: #3a3a3a !important;',
       strong: 'font-weight: 700; color: #1a1a1a !important; background-color: #fff3cd !important; padding: 2px 4px; border-radius: 8px;',
       em: 'font-style: italic; color: #666 !important;',
       a: 'color: #0066cc !important; text-decoration: none; border-bottom: 1px solid #0066cc;',
       ul: 'margin: 18px 0; padding-left: 28px;',
       ol: 'margin: 18px 0; padding-left: 28px;',
-      li: 'margin: 10px 0; line-height: 1.8 !important; color: #3a3a3a !important;',
+      li: 'margin: 10px 0; font-size: 14px !important; line-height: 1.2 !important; color: #3a3a3a !important;',
       blockquote: 'margin: 16px 0; padding: 8px 16px; background-color: #f5f9fc !important; border-left: 3px solid #2196f3; color: #555 !important; line-height: 1.5 !important;',
       code: 'font-family: "Fira Code", Consolas, Monaco, "Courier New", monospace; font-size: 14px; padding: 3px 6px; background-color: #ffe6e6 !important; color: #d63031 !important; border-radius: 8px; font-weight: 500;',
       pre: 'margin: 24px 0; padding: 20px; background-color: #1e1e1e !important; border-radius: 8px; overflow-x: auto; line-height: 1.6 !important; box-shadow: 0 2px 8px rgba(0,0,0,0.1);',
@@ -411,20 +411,20 @@ const STYLES = {
   'gaudi-organic': {
     name: '高迪·有机',
     styles: {
-      container: 'max-width: 700px; margin: 0 auto; padding: 20px 24px 45px 24px; font-family: "Baskerville", "Georgia", serif; font-size: 17px; line-height: 1.8 !important; color: #3d2914 !important; background-color: #fff5e6 !important; word-wrap: break-word;',
+      container: 'max-width: 700px; margin: 0 auto; padding: 20px 24px 45px 24px; font-family: "Baskerville", "Georgia", serif; font-size: 14px; line-height: 1.2 !important; color: #3d2914 !important; background-color: #fff5e6 !important; word-wrap: break-word;',
       h1: 'font-size: 32px; font-weight: 700; color: #ff6b6b !important; background: linear-gradient(45deg, #ff6b6b, #ffd93d, #6bcf7f, #4ecdc4, #5b86e5, #a55eea); -webkit-background-clip: text; background-clip: text; line-height: 1.25 !important; margin: 36px 0 18px; text-align: center; letter-spacing: -0.02em; position: relative; padding: 12px;',
       h2: 'font-size: 26px; font-weight: 600; color: #c0392b !important; line-height: 1.3 !important; margin: 32px 0 16px; text-align: center; position: relative; padding: 10px 20px; background: radial-gradient(ellipse at center, rgba(192, 57, 43, 0.08) 0%, transparent 70%); border-radius: 50% 20% / 10% 40%;',
       h3: 'font-size: 21px; font-weight: 600; color: #27ae60 !important; line-height: 1.35 !important; margin: 28px 0 14px; padding-left: 24px; position: relative; border-left: 4px wavy #27ae60;',
       h4: 'font-size: 18px; font-weight: 600; color: #2980b9 !important; line-height: 1.4 !important; margin: 24px 0 12px; padding: 8px 16px; background: linear-gradient(90deg, rgba(41, 128, 185, 0.1) 0%, transparent 50%); border-radius: 100px 0 100px 0;',
       h5: 'font-size: 17px; font-weight: 600; color: #8e44ad !important; line-height: 1.45 !important; margin: 20px 0 10px;',
       h6: 'font-size: 16px; font-weight: 600; color: #d35400 !important; line-height: 1.45 !important; margin: 18px 0 9px; font-style: italic;',
-      p: 'margin: 20px 0 !important; line-height: 1.85 !important; color: #3d2914 !important; text-indent: 2em;',
+      p: 'margin: 10px 0 !important; font-size: 14px !important; line-height: 1.2 !important; color: #3d2914 !important;',
       strong: 'font-weight: 700; color: #c0392b !important; background: linear-gradient(180deg, transparent 60%, rgba(192, 57, 43, 0.2) 60%); padding: 2px 4px;',
       em: 'font-style: italic; color: #27ae60 !important; font-weight: 500;',
       a: 'color: #2980b9 !important; text-decoration: none; border-bottom: 2px wavy #2980b9; position: relative;',
       ul: 'margin: 20px 0; padding-left: 28px; list-style-type: square;',
       ol: 'margin: 20px 0; padding-left: 28px; list-style-type: decimal;',
-      li: 'margin: 10px 0; line-height: 1.8 !important; color: #3d2914 !important; padding: 10px 18px 10px 32px; position: relative; background: linear-gradient(90deg, rgba(255, 193, 7, 0.1) 0%, transparent 30%); border-radius: 20px 40px 80px 20px / 80px 20px 40px 20px;',
+      li: 'margin: 10px 0; font-size: 14px !important; line-height: 1.2 !important; color: #3d2914 !important; position: relative; background: linear-gradient(90deg, rgba(255, 193, 7, 0.1) 0%, transparent 30%); border-radius: 20px 40px 80px 20px / 80px 20px 40px 20px;',
       blockquote: 'margin: 20px auto; padding: 16px 22px; background: radial-gradient(circle at top left, rgba(255, 107, 107, 0.1) 0%, rgba(109, 207, 127, 0.1) 25%, rgba(78, 205, 196, 0.1) 50%, rgba(91, 134, 229, 0.1) 75%, rgba(165, 94, 234, 0.1) 100%); border: 3px solid transparent; border-image: linear-gradient(45deg, #ff6b6b, #ffd93d, #6bcf7f, #4ecdc4, #5b86e5, #a55eea) 1; border-radius: 50% 20% / 10% 40%; color: #3d2914 !important; font-size: 17px; line-height: 1.6 !important; font-style: italic; text-align: center; max-width: 600px;',
       code: 'font-family: "Courier New", Courier, monospace; font-size: 15px; padding: 3px 8px; background: linear-gradient(45deg, rgba(255, 107, 107, 0.2), rgba(255, 217, 61, 0.2)); color: #c0392b !important; border-radius: 50% / 30%; font-weight: 600;',
       pre: 'margin: 24px 0; padding: 22px; background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #f5576c 75%, #fda085 100%); color: #fff !important; border-radius: 30% 70% 70% 30% / 60% 40% 60% 40%; overflow-x: auto; line-height: 1.55 !important; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18); position: relative;',
@@ -584,3 +584,7 @@ const STYLES = {
     }
   }
 };
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = STYLES;
+}
